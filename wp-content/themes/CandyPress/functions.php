@@ -55,21 +55,10 @@ require_once 'inc/junk_remove.php';
 require_once 'inc/bfi_thumb.php';
 require_once 'inc/post-type.php';
 require_once 'inc/custom-admin-welcome.php';
-// require_once 'inc/custom-admin-page.php';
+require_once 'inc/custom-admin-page.php';
 require_once 'inc/admin/codestar-framework.php';
 require_once 'inc/admin-options.php';
 require_once 'inc/roles.php';
-
-	function my_login_logo_one() {
-		?>
-		<style type="text/css">
-        body.login div#login h1 a {
-            background-image: url('');
-            padding-bottom: 30px;
-        }
-		</style>
-		<?php
-	} add_action( 'login_enqueue_scripts', 'my_login_logo_one' );
 
 /**
 ***********************************
